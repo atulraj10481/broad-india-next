@@ -17,7 +17,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  const pageTitle = `${blog.title} | BROAD India Blog`;
+  const suffix = " | BROAD India";
+  const maxTitleLen = 60 - suffix.length;
+  const truncatedTitle = blog.title.length > maxTitleLen 
+    ? blog.title.substring(0, maxTitleLen - 1).trimEnd() + "…"
+    : blog.title;
+  const pageTitle = `${truncatedTitle}${suffix}`;
   const description = blog.meta?.description || blog.description;
 
   return {
@@ -103,6 +108,22 @@ export default async function BlogsDetailPage({ params }: PageProps) {
       : undefined,
   };
 
+  // Standard fallback FAQs matching BlogDetailContent.tsx
+  const standardBlogFaqs = [
+    {
+      question: "What is a Vapour Absorption Chiller?",
+      answer: "It's a thermally-driven cooling system that uses water/LiBr solution and heat (from steam, hot water, exhaust, or gas) instead of electricity to produce chilled water, drastically reducing energy costs."
+    },
+    {
+      question: "Can BROAD chillers run on waste heat?",
+      answer: "Yes, our absorption chillers can capture waste heat from industrial processes, generator exhaust, or boiler steam to provide free cooling, resulting in significant OPEX savings."
+    },
+    {
+      question: "Do you provide after-sales service in India?",
+      answer: "Absolutely. BROAD India provides comprehensive design consultation, commissioning, operator training, and 24/7 after-sales support with remote monitoring capabilities."
+    }
+  ];
+
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -128,10 +149,11 @@ export default async function BlogsDetailPage({ params }: PageProps) {
     ],
   };
 
-  const faqSchema = blog.faq?.length ? {
+  const faqItems = blog.faq?.length ? blog.faq : standardBlogFaqs;
+  const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: blog.faq.map((item) => ({
+    mainEntity: faqItems.map((item) => ({
       "@type": "Question",
       name: item.question,
       acceptedAnswer: {
@@ -139,7 +161,7 @@ export default async function BlogsDetailPage({ params }: PageProps) {
         text: item.answer,
       },
     })),
-  } : null;
+  };
 
   return (
     <>
@@ -147,7 +169,7 @@ export default async function BlogsDetailPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
-            [blogPostingSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : [])]
+            [blogPostingSchema, breadcrumbSchema, faqSchema]
           ),
         }}
       />

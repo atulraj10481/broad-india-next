@@ -46,7 +46,7 @@ export default function RelatedPosts({ posts }: RelatedPostsProps) {
                 {post.title}
               </h3>
               <span className="inline-flex items-center text-xs font-medium text-blue-600">
-                Read More <ArrowRight className="ml-1 h-3 w-3" />
+                Read Post <ArrowRight className="ml-1 h-3 w-3" />
               </span>
             </div>
           </Link>

@@ -12,12 +12,12 @@ import TrustedClients from "@/components/TrustedClient";
 import IntroText from "@/components/IntroText";
 
 export const metadata: Metadata = {
-  title: "Vapor Absorption Chillers India | BROAD India",
+  title: "Vapour Absorption Chillers India | BROAD India",
   description:
-    "BROAD India offers vapor absorption chillers, CCHP systems & non-electric HVAC solutions. Cut cooling costs by 50%. Get a free consultation today.",
+    "BROAD India offers vapour absorption chillers (VAC / VAM), CCHP systems & non-electric HVAC solutions. Cut cooling costs by 50%. Get a free consultation today.",
   keywords: [
     "BROAD India",
-    "vapor absorption chiller",
+    "vapour absorption chiller",
     "non-electric chiller",
     "HVAC solutions",
     "energy efficient cooling",
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
     "absorption heat pump",
   ],
   openGraph: {
-    title: "Vapor Absorption Chillers India | BROAD India",
+    title: "Vapour Absorption Chillers India | BROAD India",
     description:
-      "BROAD India offers vapor absorption chillers, CCHP systems & non-electric HVAC solutions. Cut cooling costs by 50%. Get a free consultation today.",
+      "BROAD India offers vapour absorption chillers (VAC / VAM), CCHP systems & non-electric HVAC solutions. Cut cooling costs by 50%. Get a free consultation today.",
     type: "website",
     locale: "en_IN",
     url: "https://www.broadindia.com",
@@ -46,9 +46,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vapor Absorption Chillers India | BROAD India",
+    title: "Vapour Absorption Chillers India | BROAD India",
     description:
-      "BROAD India offers vapor absorption chillers, CCHP systems & non-electric HVAC solutions. Cut cooling costs by 50%. Get a free consultation today.",
+      "BROAD India offers vapour absorption chillers (VAC / VAM), CCHP systems & non-electric HVAC solutions. Cut cooling costs by 50%. Get a free consultation today.",
     images: ["/images/logo.png"],
   },
   robots: {
@@ -76,7 +76,7 @@ export default function Home() {
       "url": "https://www.broadindia.com/images/logo.png",
     },
     "description":
-      "BROAD India delivers cutting-edge Vapor Absorption Machines (VAM) and non-electric HVAC solutions. India's top supplier of absorption chillers, CCHP systems, and fuel gas recovery chillers since 2001.",
+      "BROAD India delivers cutting-edge Vapour Absorption Machines (VAM) and non-electric HVAC solutions. India's top supplier of absorption chillers, CCHP systems, and fuel gas recovery chillers since 2001.",
     "foundingDate": "2001",
     "contactPoint": [
       {
@@ -151,7 +151,7 @@ export default function Home() {
 
   return (
     <div style={{ backgroundColor: "#eee", paddingLeft: "0" }}>
-      <h1 className="sr-only">Vapor Absorption Chillers &amp; Non-Electric HVAC Solutions for Indian Industry</h1>
+      <h1 className="sr-only">Vapour Absorption Chillers (VAC / VAM) &amp; Non-Electric HVAC Solutions for Indian Industry</h1>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

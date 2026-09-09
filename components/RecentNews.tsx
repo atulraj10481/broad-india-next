@@ -7,10 +7,10 @@ const blogs = [
   {
     title: "Sustainable Industrial Cooling Solutions",
     description:
-      "Explore how BROAD India's vapor absorption chillers are transforming industrial cooling with zero electricity consumption and minimal environmental impact.",
+      "Explore how BROAD India's vapour absorption chillers are transforming industrial cooling with zero electricity consumption and minimal environmental impact.",
     image:
       "https://images.unsplash.com/photo-1495908333425-29a1e0918c5f?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fA%3D%3D",
-    link: "/blogs",
+    link: "/blogs/vapor-absorption-machine-vam-the-future-of-energy-efficient-cooling",
   },
   {
     title: "CCHP Systems: The Future of Energy Efficiency",
@@ -18,7 +18,7 @@ const blogs = [
       "Learn how Combined Cooling, Heating & Power systems are revolutionizing energy consumption in commercial and industrial facilities.",
     image:
       "https://m.economictimes.com/thumb/msid-69127844,width-1200,height-900,resizemode-4,imgsize-347903/construction-site-generators-types-features-of-generators-used-at-construction-sites.jpg",
-    link: "/blogs",
+    link: "/blogs/cchp-india-industrial-energy",
   },
   {
     title: "Waste Heat Recovery: Turning Excess Heat into Savings",
@@ -26,7 +26,7 @@ const blogs = [
       "Discover how industries are reducing costs and carbon footprint by utilizing waste heat for cooling applications through absorption technology.",
     image:
       "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(68)(134).jpg",
-    link: "/blogs",
+    link: "/blogs/waste-heat-recovery-chiller-generator-roi",
   },
 ];
 
@@ -51,8 +51,8 @@ export default function RecentNews() {
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-4">{blog.title}</h3>
               <p className="text-gray-700 mb-4">{blog.description}</p>
-              <Link href={blog.link} className="btn btn-primary">
-                Read more
+              <Link href={blog.link} className="btn btn-primary" aria-label={`Read more about ${blog.title}`}>
+                Explore topic
               </Link>
             </div>
           </div>

@@ -5,7 +5,7 @@ export default function MissionFocus() {
     {
       title: "Energy Efficiency",
       description:
-        "Engineering advanced Vapor Absorption Chillers, non-electric chillers, and VAM systems to slash energy costs and boost performance across heavy industries.",
+        "Engineering advanced Vapour Absorption Chillers (VAC / VAM), non-electric chillers, and VAM systems to slash energy costs and boost performance across heavy industries.",
       icon: "⚡",
     },
     {

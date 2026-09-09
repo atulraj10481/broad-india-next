@@ -8,11 +8,11 @@ import broadBG3 from "@/public/images/13Podium.webp";
 import broadBG4 from "@/public/images/FTower.webp";
 
 const slides = [
-  { src: broadBG1, text: "Vapor Absorption Chillers & Non-Electric HVAC Solutions for Indian Industry" },
+  { src: broadBG1, text: "Vapour Absorption Chillers & Non-Electric HVAC Solutions for Indian Industry" },
   { src: broadBG2, text: "Serving India Since 2001" },
   {
     src: broadBG3,
-    text: "Vapor Absorption Machines and Sustainable HVAC Solutions",
+    text: "Vapour Absorption Machines and Sustainable HVAC Solutions",
   },
   {
     src: broadBG4,

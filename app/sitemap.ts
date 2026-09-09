@@ -1,5 +1,4 @@
 import { MetadataRoute } from 'next';
-import { articles } from '@/data/articles';
 import { blogs } from '@/data/blogs';
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -9,7 +8,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '',
     '/about',
     '/absorption-heat-pump',
-    '/articles',
     '/blogs',
     '/broad-group',
     '/careers',
@@ -38,19 +36,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: route === '' ? 1.0 : 0.8,
   }));
 
-  const articleRoutes = articles.map((article) => ({
-    url: `${baseUrl}/articles/${article.id}`,
-    lastModified: article.date ? new Date(article.date) : new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }));
-
   const blogRoutes = blogs.map((blog) => ({
     url: `${baseUrl}/blogs/${blog.id}`,
-    lastModified: blog.date ? new Date(blog.date) : new Date(),
+    lastModified: blog.isoDate ? new Date(blog.isoDate) : (blog.date ? new Date(blog.date) : new Date()),
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...articleRoutes, ...blogRoutes];
+  return [...staticRoutes, ...blogRoutes];
 }

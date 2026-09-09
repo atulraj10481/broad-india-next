@@ -64,12 +64,12 @@ export default function BlogsPage() {
                         {blog.category}
                       </span>
                     </div>
-                    <Link href={`/blogs/${blog.id}`}>
+                    <Link href={`/blogs/${blog.id}`} aria-label={`Read full post: ${blog.title}`}>
                       <Button
                         variant="ghost"
                         className="hover:translate-x-2 transition-transform text-primary"
                       >
-                        Read More <ArrowRight className="ml-2 h-4 w-4" />
+                        Read Post <ArrowRight className="ml-2 h-4 w-4" />
                       </Button>
                     </Link>
                   </div>

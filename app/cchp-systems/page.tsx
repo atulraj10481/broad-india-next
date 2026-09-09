@@ -10,6 +10,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import ProductFAQ from "@/components/ProductFAQ";
 
 const CCHPSystems = () => {
   useEffect(() => {
@@ -47,15 +48,17 @@ const CCHPSystems = () => {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "Service",
-          "name": "CCHP Systems (Combined Cooling, Heating & Power)",
-          "description": "Trigeneration systems integrating cogeneration and absorption technology for simultaneous electricity, cooling, and heating with 60-80% efficiency.",
-          "provider": { "@type": "Organization", "name": "BROAD India", "url": "https://www.broadindia.com" },
-          "areaServed": { "@type": "Country", "name": "India" },
-          "serviceType": "Combined Cooling Heating and Power"
-        }) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "CCHP Systems (Combined Cooling, Heating & Power)",
+            "description": "Trigeneration systems integrating cogeneration and absorption technology for simultaneous electricity, cooling, and heating with 60-80% efficiency.",
+            "provider": { "@type": "Organization", "name": "BROAD India", "url": "https://www.broadindia.com" },
+            "areaServed": { "@type": "Country", "name": "India" },
+            "serviceType": "Combined Cooling Heating and Power"
+          })
+        }}
       />
       {/* Hero Section */}
       <div
@@ -87,7 +90,7 @@ const CCHPSystems = () => {
             <p>
               This synergistic approach elevates total system energy efficiency from a conventional 30-40% to an astounding <strong>60%–80%</strong>. For heavy industries, commercial complexes, district cooling networks, and institutional campuses across India, a BROAD CCHP system translates to massive reductions in primary fuel consumption, drastically lower operational expenditures (OPEX), and unparalleled energy security.
             </p>
-            
+
             <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Strategic Advantage of Trigeneration in India</h3>
             <p>
               India&apos;s rapid industrialization combined with an increasingly strained national power grid demands decentralized, reliable, and highly efficient energy solutions. A BROAD CCHP plant empowers facilities to become self-sufficient microgrids. By generating electricity on-site, facilities bypass transmission and distribution (T&D) losses - which can be substantial - and insulate themselves from unpredictable grid outages and peak tariff penalties.
@@ -395,6 +398,16 @@ const CCHPSystems = () => {
           </div>
         </div>
       </div>
+      <ProductFAQ faqs={[
+        {
+          question: "What is a CCHP System?",
+          answer: "A CCHP (Combined Cooling, Heating & Power) system, or trigeneration, is an energy-efficient solution that generates electricity, chilled water, and hot water simultaneously from a single fuel source or waste heat."
+        },
+        {
+          question: "How efficient are BROAD's CCHP systems?",
+          answer: "By capturing and utilizing waste heat that would otherwise be exhausted, BROAD CCHP systems achieve total system efficiencies between 60% and 80%, drastically reducing lifecycle energy costs and carbon emissions."
+        }
+      ]} />
     </div>
   );
 };

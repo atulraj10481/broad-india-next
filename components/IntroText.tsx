@@ -9,7 +9,7 @@ export default function IntroText() {
           <strong>BROAD Group,</strong> has been serving the Indian market for
           <strong> 25 years.</strong> We deliver cutting-edge{" "}
           <strong>
-            Vapor Absorption Machines (VAM), Vapor Absorption Chillers (VAC),
+            Vapour Absorption Machines (VAM), Vapour Absorption Chillers (VAC),
             Non‑Electric Chillers, and Combined Cooling, Heating & Power (CCHP)
           </strong>{" "}
           systems across India. Our sustainable HVAC solutions leverage waste
