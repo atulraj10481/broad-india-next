@@ -7,11 +7,11 @@ import logo from "@/public/images/logo.png";
 export const metadata: Metadata = {
   title: "About BROAD India - Leading HVAC Solutions Provider",
   description:
-    "Learn about BROAD Air Conditioning India Pvt. Ltd., a leading provider of non-electric vapor absorption chillers and sustainable HVAC solutions. Discover our mission, values, and commitment to energy-efficient cooling systems.",
+    "Learn about BROAD Air Conditioning India Pvt. Ltd., a leading provider of non-electric Vapour absorption chillers and sustainable HVAC solutions. Discover our mission, values, and commitment to energy-efficient cooling systems.",
   keywords: [
     "BROAD India",
     "HVAC solutions",
-    "vapor absorption chillers",
+    "Vapour absorption chillers",
     "non-electric cooling",
     "sustainable HVAC",
     "energy efficient cooling",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About BROAD India - Leading HVAC Solutions Provider",
     description:
-      "Learn about BROAD Air Conditioning India Pvt. Ltd., a leading provider of non-electric vapor absorption chillers and sustainable HVAC solutions.",
+      "Learn about BROAD Air Conditioning India Pvt. Ltd., a leading provider of non-electric Vapour absorption chillers and sustainable HVAC solutions.",
     type: "website",
     locale: "en_IN",
     images: [
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "About BROAD India - Leading HVAC Solutions Provider",
     description:
-      "Learn about BROAD Air Conditioning India Pvt. Ltd., a leading provider of non-electric vapor absorption chillers and sustainable HVAC solutions.",
+      "Learn about BROAD Air Conditioning India Pvt. Ltd., a leading provider of non-electric Vapour absorption chillers and sustainable HVAC solutions.",
     images: ["/images/logo.png"],
   },
 };
@@ -61,7 +61,7 @@ export default function About() {
             <p className="mt-4 text-base md:text-lg text-gray-700">
               BROAD India, a proud subsidiary of China&apos;s BROAD Group, has
               been serving India since 2001 with cutting-edge, sustainable HVAC
-              solutions. For over two decades, we&apos;ve delivered 200+ Vapor
+              solutions. For over two decades, we&apos;ve delivered 200+ Vapour
               Absorption Machine (VAM) installations across critical industrial
               sectors.
             </p>
@@ -158,7 +158,7 @@ export default function About() {
               <ul className="space-y-3">
                 <li className="flex items-center">
                   <span className="text-green-500 mr-2">✓</span>
-                  Rank #1 for BROAD Vapor Absorption Chiller and Non-Electric
+                  Rank #1 for BROAD Vapour Absorption Chiller and Non-Electric
                   Chiller
                 </li>
                 <li className="flex items-center">

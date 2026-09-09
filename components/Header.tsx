@@ -111,7 +111,6 @@ export default function Header() {
             <Link href="/about">About</Link>
             <Link href="/broad-group">BROAD Group</Link>
             <Link href="/blogs">Blogs</Link>
-            <Link href="/articles">Articles</Link>
             <Link href="/careers">Careers</Link>
             <Link href="/contact-us" className="ml-2">
               <span className="bg-blue-700 text-white px-4 py-2 rounded-md cursor-pointer whitespace-nowrap">
@@ -202,13 +201,6 @@ export default function Header() {
             </Link>
             <Link href="/blogs" className="font-bold" onClick={handleCloseMenu}>
               Blogs
-            </Link>
-            <Link
-              href="/articles"
-              className="font-bold"
-              onClick={handleCloseMenu}
-            >
-              Articles
             </Link>
             <Link
               href="/careers"

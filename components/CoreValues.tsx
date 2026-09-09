@@ -45,9 +45,8 @@ export default function CoreValues() {
         prioritize long-term relationships over short-term gains.
       </p>
       <div
-        className={`grid ${
-          isMobile ? "grid-cols-1" : "grid-cols-3"
-        } gap-8 mt-10 mx-auto max-w-6xl`}
+        className={`grid ${isMobile ? "grid-cols-1" : "grid-cols-3"
+          } gap-8 mt-10 mx-auto max-w-6xl`}
       >
         {coreValues.map((value, index) => (
           <div
@@ -65,8 +64,9 @@ export default function CoreValues() {
             <button
               className="mt-6 px-4 py-2 rounded-md bg-blue-500 text-white hover:bg-blue-600 transition"
               onClick={() => router.push("/about")}
+              aria-label={`Learn more about our core value: ${value.title}`}
             >
-              Read more
+              Learn about our values
             </button>
           </div>
         ))}

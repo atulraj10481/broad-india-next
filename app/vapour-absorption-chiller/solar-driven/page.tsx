@@ -5,9 +5,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Solar Driven Vapor Absorption Chiller - Renewable Energy Cooling | BROAD India",
+    "Solar Driven Vapour Absorption Chiller - Renewable Energy Cooling | BROAD India",
   description:
-    "BROAD Solar Driven Vapor Absorption Chillers harness solar energy for sustainable cooling solutions. Eco-friendly, renewable energy-powered air conditioning systems.",
+    "BROAD Solar Driven Vapour Absorption Chillers harness solar energy for sustainable cooling solutions. Eco-friendly, renewable energy-powered air conditioning systems.",
   keywords: [
     "solar chiller",
     "solar driven cooling",
@@ -21,18 +21,18 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title:
-      "Solar Driven Vapor Absorption Chiller - Renewable Energy Cooling | BROAD India",
+      "Solar Driven Vapour Absorption Chiller - Renewable Energy Cooling | BROAD India",
     description:
-      "BROAD Solar Driven Vapor Absorption Chillers harness solar energy for sustainable cooling solutions. Eco-friendly renewable energy cooling.",
+      "BROAD Solar Driven Vapour Absorption Chillers harness solar energy for sustainable cooling solutions. Eco-friendly renewable energy cooling.",
     type: "website",
     locale: "en_IN",
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Solar Driven Vapor Absorption Chiller - Renewable Energy Cooling | BROAD India",
+      "Solar Driven Vapour Absorption Chiller - Renewable Energy Cooling | BROAD India",
     description:
-      "BROAD Solar Driven Vapor Absorption Chillers harness solar energy for sustainable cooling solutions.",
+      "BROAD Solar Driven Vapour Absorption Chillers harness solar energy for sustainable cooling solutions.",
   },
 };
 

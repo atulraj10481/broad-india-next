@@ -43,8 +43,51 @@ export const metadata: Metadata = {
 };
 
 const PowerEfficientChiller = () => {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is a magnetic bearing chiller?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A magnetic bearing chiller uses advanced magnetic levitation technology in its compressor. Instead of conventional mechanical bearings that require heavy oil lubrication, the compressor shaft floats on a magnetic field. This completely eliminates mechanical friction, resulting in hyper-efficient, whisper-quiet operation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is oil-free technology important for efficiency?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In traditional chillers, lubricating oil often travels into the heat exchangers, coating the tubes and acting as an insulator. This 'oil fouling' severely degrades heat transfer efficiency over time. An oil-free magnetic chiller eliminates this problem entirely, maintaining its day-one peak efficiency for the entire life of the unit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the maintenance benefits of magnetic bearing chillers?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Because there is no oil management system (no oil pumps, filters, heaters, or separators) and no mechanical friction on the bearings, routine maintenance is drastically reduced. Facilities can eliminate the costs and downtime associated with annual oil changes and bearing replacements."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much electricity can a magnetic bearing chiller save?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "BROAD's magnetic bearing chillers are engineered for exceptional part-load performance. Compared to conventional electric chillers, they can deliver energy savings of 30% to 50%, significantly lowering your facility's operational costs."
+        }
+      }
+    ]
+  };
+
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

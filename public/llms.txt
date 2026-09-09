@@ -5,10 +5,10 @@
 **Gurugram Office:** N-14/27, DLF Phase-2, Gurugram, Haryana, India
 
 ## About Us
-BROAD India delivers cutting-edge Vapor Absorption Machines (VAM) and non-electric HVAC solutions. We provide sustainable cooling for Indian industries using waste heat, steam, hot water, oil, and natural gas, reducing electricity consumption and carbon footprint. With over two decades of experience, we are India's top supplier of absorption chillers, CCHP systems, and fuel gas recovery chillers.
+BROAD India delivers cutting-edge Vapour Absorption Machines (VAM) and non-electric HVAC solutions. We provide sustainable cooling for Indian industries using waste heat, steam, hot water, oil, and natural gas, reducing electricity consumption and carbon footprint. With over two decades of experience, we are India's top supplier of absorption chillers, CCHP systems, and fuel gas recovery chillers.
 
 ## Priority Products & Capabilities
-- Vapor Absorption Chillers: https://www.broadindia.com/vapour-absorption-chiller
+- Vapour Absorption Chillers (VAC / VAM): https://www.broadindia.com/vapour-absorption-chiller
 - Direct-Fired Chillers: https://www.broadindia.com/vapour-absorption-chiller/direct-fired-chiller
 - Multi-Energy Chillers: https://www.broadindia.com/vapour-absorption-chiller/multi-energy-chiller
 - Packaged Chillers: https://www.broadindia.com/vapour-absorption-chiller/packaged-chiller
@@ -22,7 +22,6 @@ BROAD India delivers cutting-edge Vapor Absorption Machines (VAM) and non-electr
 ## Key Resources
 - About BROAD Group: https://www.broadindia.com/about
 - Latest Articles & News: https://www.broadindia.com/blogs
-- Technical Articles: https://www.broadindia.com/articles
 - Frequently Asked Questions: https://www.broadindia.com/faq
 - Contact Us: https://www.broadindia.com/contact-us
 

@@ -8,7 +8,7 @@ import pumpImg from "@/public/images/broadPump.webp";
 const products = [
   {
     id: 1,
-    title: "Vapor Absorption Chiller",
+    title: "Vapour Absorption Chiller (VAC / VAM)",
     image: "https://broadusa.com/broad/wp-content/uploads/2020/04/home_DFA.jpg",
     description:
       "Ideal for industries looking to eliminate electricity-driven cooling. Choose from gas, steam, solar, or multi-energy powered chillers that run efficiently on available heat sources.",

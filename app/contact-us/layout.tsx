@@ -1,11 +1,11 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact BROAD India | Vapor Absorption Chillers & HVAC Solutions",
-  description: "Get in touch with BROAD India for advanced Vapor Absorption Chillers and non-electric HVAC solutions. Reach our Surat or Gurugram offices for inquiries.",
+  title: "Contact BROAD India | Vapour Absorption Chillers & HVAC Solutions",
+  description: "Get in touch with BROAD India for advanced Vapour Absorption Chillers and non-electric HVAC solutions. Reach our Surat or Gurugram offices for inquiries.",
   openGraph: {
-    title: "Contact BROAD India | Vapor Absorption Chillers & HVAC Solutions",
-    description: "Get in touch with BROAD India for advanced Vapor Absorption Chillers and non-electric HVAC solutions. Reach our Surat or Gurugram offices for inquiries.",
+    title: "Contact BROAD India | Vapour Absorption Chillers & HVAC Solutions",
+    description: "Get in touch with BROAD India for advanced Vapour Absorption Chillers and non-electric HVAC solutions. Reach our Surat or Gurugram offices for inquiries.",
     url: "https://www.broadindia.com/contact-us",
     siteName: "BROAD India",
     images: [
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact BROAD India | Vapor Absorption Chillers & HVAC Solutions",
-    description: "Get in touch with BROAD India for advanced Vapor Absorption Chillers and non-electric HVAC solutions. Reach our Surat or Gurugram offices for inquiries.",
+    title: "Contact BROAD India | Vapour Absorption Chillers & HVAC Solutions",
+    description: "Get in touch with BROAD India for advanced Vapour Absorption Chillers and non-electric HVAC solutions. Reach our Surat or Gurugram offices for inquiries.",
     images: ["/images/logo.png"],
   },
   alternates: {

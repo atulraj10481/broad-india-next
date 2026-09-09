@@ -23,7 +23,7 @@ export default function Sustainable() {
           <span className="text-green-600">Greener Tomorrow</span>
         </h2>
         <p className="mt-10 text-lg text-gray-700 leading-relaxed">
-          BROAD India delivers cutting-edge Vapor Absorption Machines (VAM) and
+          BROAD India delivers cutting-edge Vapour Absorption Machines (VAM) and
           non-electric air conditioning systems that drastically reduce power
           consumption and environmental impact. Our products are powered by
           waste heat, steam, hot water, oil, and natural gas, offering

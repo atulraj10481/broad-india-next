@@ -161,7 +161,7 @@ const AbsorptionHeatPump = () => {
             <p>
               Unlike conventional mechanical heat pumps that rely on electricity-hungry compressors, the BROAD Absorption Heat Pump utilizes a thermal compressor driven by a heat source - such as steam, high-temperature hot water, exhaust gas, or natural gas. This means the system elevates energy efficiency far beyond traditional boiler-based heating methods, delivering an extraordinary <strong>Coefficient of Performance (COP) between 2.0 and 3.0</strong>. In practical terms, this translates to generating two to three times the heating output per unit of driving energy consumed.
             </p>
-            
+
             <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Transforming Thermal Power Plants and Heavy Industry</h3>
             <p>
               For thermal power plants in India, energy efficiency dictates profitability. By deploying a BROAD Absorption Heat Pump, power plants can recover the massive latent heat lost in condenser cooling water. This recovered heat is then used to preheat the boiler feedwater or supply a district heating network. The result is a direct <strong>15% to 20% reduction in coal or fuel consumption</strong> while maintaining the same electrical output, fundamentally improving the plant&apos;s heat rate and extending the operational lifespan of the boilers.

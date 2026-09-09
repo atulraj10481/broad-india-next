@@ -13,11 +13,11 @@ import ProductFAQ from "@/components/ProductFAQ";
 
 export const metadata: Metadata = {
   title:
-    "Vapor Absorption Chillers - Non-Electric Cooling Solutions | BROAD India",
+    "Vapour Absorption Chillers - Non-Electric Cooling Solutions | BROAD India",
   description:
-    "Explore BROAD India's range of vapor absorption chillers including direct-fired, waste heat, solar-driven, and multi-energy chillers. Energy-efficient, non-electric cooling solutions for industrial applications.",
+    "Explore BROAD India's range of Vapour absorption chillers including direct-fired, waste heat, solar-driven, and multi-energy chillers. Energy-efficient, non-electric cooling solutions for industrial applications.",
   keywords: [
-    "vapor absorption chiller",
+    "Vapour absorption chiller",
     "non-electric chiller",
     "absorption chiller",
     "direct fired chiller",
@@ -29,18 +29,18 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title:
-      "Vapor Absorption Chillers - Non-Electric Cooling Solutions | BROAD India",
+      "Vapour Absorption Chillers - Non-Electric Cooling Solutions | BROAD India",
     description:
-      "Explore BROAD India's range of vapor absorption chillers including direct-fired, waste heat, solar-driven, and multi-energy chillers.",
+      "Explore BROAD India's range of Vapour absorption chillers including direct-fired, waste heat, solar-driven, and multi-energy chillers.",
     type: "website",
     locale: "en_IN",
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Vapor Absorption Chillers - Non-Electric Cooling Solutions | BROAD India",
+      "Vapour Absorption Chillers - Non-Electric Cooling Solutions | BROAD India",
     description:
-      "Explore BROAD India's range of vapor absorption chillers including direct-fired, waste heat, solar-driven, and multi-energy chillers.",
+      "Explore BROAD India's range of Vapour absorption chillers including direct-fired, waste heat, solar-driven, and multi-energy chillers.",
   },
 };
 
@@ -108,10 +108,10 @@ const VapourAbsorptionChiller = () => {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "What is a vapor absorption chiller?",
+        "name": "What is a Vapour absorption chiller?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "A vapor absorption chiller is a cooling system that uses heat (like waste heat or steam) instead of electricity to drive the refrigeration cycle, making it a highly energy-efficient and eco-friendly cooling solution."
+          "text": "A Vapour absorption chiller is a cooling system that uses heat (like waste heat or steam) instead of electricity to drive the refrigeration cycle, making it a highly energy-efficient and eco-friendly cooling solution."
         }
       },
       {
@@ -119,12 +119,12 @@ const VapourAbsorptionChiller = () => {
         "name": "How does an absorption chiller work without electricity?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "It uses a thermal compressor instead of a mechanical one. Heat sources like steam, hot water, natural gas, or waste heat are used to vaporize the refrigerant (typically water) from an absorbent (like lithium bromide), producing a cooling effect with minimal electrical power."
+          "text": "It uses a thermal compressor instead of a mechanical one. Heat sources like steam, hot water, natural gas, or waste heat are used to Vapourize the refrigerant (typically water) from an absorbent (like lithium bromide), producing a cooling effect with minimal electrical power."
         }
       },
       {
         "@type": "Question",
-        "name": "What are the benefits of using a vapor absorption machine in India?",
+        "name": "What are the benefits of using a Vapour absorption machine in India?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Benefits include drastically reduced electricity consumption, lower operating costs, utilization of industrial waste heat, and a smaller carbon footprint since they use water as a refrigerant instead of ozone-depleting chemicals."
@@ -136,8 +136,8 @@ const VapourAbsorptionChiller = () => {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "Vapor Absorption Chiller Solutions",
-    "description": "Non-electric cooling solutions using vapor absorption technology for industrial and commercial applications across India.",
+    "name": "Vapour Absorption Chiller Solutions",
+    "description": "Non-electric cooling solutions using Vapour absorption technology for industrial and commercial applications across India.",
     "provider": {
       "@type": "Organization",
       "name": "BROAD India",
@@ -199,7 +199,7 @@ const VapourAbsorptionChiller = () => {
             </p>
             <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Unmatched Reliability and Intelligent Operation</h3>
             <p>
-              BROAD Absorption Chillers are engineered with virtually no moving parts within the main refrigeration cycle, bypassing the mechanical wear and tear inherent in electric centrifugal or screw compressors. The result is a whisper-quiet, vibration-free operation with an extended lifespan often exceeding 25 years. Coupled with BROAD&apos;s advanced anti-crystallization controls, automated multi-point vacuum purging systems, and comprehensive IoT-enabled remote monitoring, our chillers ensure uninterrupted, trouble-free performance year after year. 
+              BROAD Absorption Chillers are engineered with virtually no moving parts within the main refrigeration cycle, bypassing the mechanical wear and tear inherent in electric centrifugal or screw compressors. The result is a whisper-quiet, vibration-free operation with an extended lifespan often exceeding 25 years. Coupled with BROAD&apos;s advanced anti-crystallization controls, automated multi-point vacuum purging systems, and comprehensive IoT-enabled remote monitoring, our chillers ensure uninterrupted, trouble-free performance year after year.
             </p>
             <p>
               Whether you are upgrading an aging chilled water plant, integrating cooling into a cogeneration setup, or looking to harness solar thermal power, BROAD India has the engineering expertise to customize a thermal cooling solution tailored to your exact load profile and heat availability.

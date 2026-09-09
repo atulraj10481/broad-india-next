@@ -5,9 +5,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Waste Heat Driven Vapor Absorption Chiller - Energy Recovery Solutions | BROAD India",
+    "Waste Heat Driven Vapour Absorption Chiller - Energy Recovery Solutions | BROAD India",
   description:
-    "BROAD Waste Heat Driven Vapor Absorption Chillers convert industrial waste heat into cooling energy. Maximize energy efficiency and reduce operating costs with our waste heat recovery chillers.",
+    "BROAD Waste Heat Driven Vapour Absorption Chillers convert industrial waste heat into cooling energy. Maximize energy efficiency and reduce operating costs with our waste heat recovery chillers.",
   keywords: [
     "waste heat chiller",
     "waste heat recovery",
@@ -15,15 +15,15 @@ export const metadata: Metadata = {
     "waste heat driven cooling",
     "industrial waste heat",
     "energy recovery",
-    "vapor absorption chiller",
+    "Vapour absorption chiller",
     "BROAD waste heat",
     "thermal energy recovery",
   ],
   openGraph: {
     title:
-      "Waste Heat Driven Vapor Absorption Chiller - Energy Recovery Solutions | BROAD India",
+      "Waste Heat Driven Vapour Absorption Chiller - Energy Recovery Solutions | BROAD India",
     description:
-      "BROAD Waste Heat Driven Vapor Absorption Chillers convert industrial waste heat into cooling energy. Maximize energy efficiency and reduce costs.",
+      "BROAD Waste Heat Driven Vapour Absorption Chillers convert industrial waste heat into cooling energy. Maximize energy efficiency and reduce costs.",
     type: "website",
     locale: "en_IN",
     images: [
@@ -31,16 +31,16 @@ export const metadata: Metadata = {
         url: "/images/wasteHeat.jpg",
         width: 1200,
         height: 630,
-        alt: "BROAD Waste Heat Driven Vapor Absorption Chiller",
+        alt: "BROAD Waste Heat Driven Vapour Absorption Chiller",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Waste Heat Driven Vapor Absorption Chiller - Energy Recovery Solutions | BROAD India",
+      "Waste Heat Driven Vapour Absorption Chiller - Energy Recovery Solutions | BROAD India",
     description:
-      "BROAD Waste Heat Driven Vapor Absorption Chillers convert industrial waste heat into cooling energy.",
+      "BROAD Waste Heat Driven Vapour Absorption Chillers convert industrial waste heat into cooling energy.",
     images: ["/images/wasteHeat.jpg"],
   },
 };
